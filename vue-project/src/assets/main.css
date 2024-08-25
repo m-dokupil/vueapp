@@ -1,0 +1,31 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+  box-sizing: border-box;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
