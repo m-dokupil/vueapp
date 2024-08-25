@@ -267,7 +267,7 @@ export default defineComponent({
 .dark-mode .table-card {
   background-color: #1c1c1c;
 }
-.dark-mode .table-header {
+.light-mode .table-header {
   color: #000000;
 }
 
